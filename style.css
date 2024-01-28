@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 #right {
@@ -87,6 +88,8 @@ img {
 
 .navigation-image {
     align-self: center;
+    width: 30px;
+    height: 30px;
 }
 
 .t2:hover {
@@ -107,11 +110,36 @@ img {
 
 .chat-details {
     margin-left: 10px;
+    font-family: 'quick';
+    padding: 10px;
 }
-
+.chat-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .timestamp {
     margin-left: auto;
-}
-#chat-title{
     font-family: 'quick';
+}
+.chat-title{
+    font-family: 'quick';
+}
+.chat-item:hover{
+    background-color: #f1ece569;
+}
+.profile1-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+
+}
+.chat1-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(135, 206, 250, 0.418);
+    background-color: #f1ece59c;
+}
+
+.chat-title{
+    font-family: 'ubuntu';
 }
