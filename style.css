@@ -1,4 +1,136 @@
-*{
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'quick';
+    src: url(Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url(Fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+#main{
+    width: 100%;
+    display: flex; */
+/* } */
+/* #left{ */
+    /* width: 40%; */
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#nav1{
+    background-color: #F0F2F5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+#right{
+    background-color: #efeae2;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#searchbar{
+    padding-left: 30px; 
+      background: url('img/search.png') no-repeat left center;
+      background-size: 20px; 
+      background-color: #F0F2F5; 
+      height: 40px; 
+      border: none;
+      outline: none;
+      width: 90%;
+      margin-left: 10px;
+      margin: 10px; */
+/* } */
+/* #l1{ */
+    /* background-color: black; */
+    /* border: 1px solid black;  */
+    /* overflow-y: scroll; */
+/* }
+#leftside{
+    display: inline-block;
+    margin-left: 50px;
+}
+#input1{
+    padding-left: 30px; 
+    background: url('img/emoji.png') no-repeat left center;
+    background-size: 20px; 
+    border: 1px solid #ccc; 
+    height: 30px;
+  } */
+/* #bottom{
+    align-self: last baseline;
+    /* width: 80px; */
+    /* height: 50px;
+    position: fixed;
+}  */
+
+/* .navigation-image{
+    margin-bottom: 0px;
+    /* margin-left: 20px; 
+} */
+
+
+
+/* 
+#bottom {
+    position: fixed;
+    bottom: 0;
+    left: 4;
+    width: 60%;
+    background-color: #f0f2f5; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); 
+  } */
+
+  /* #input1 {
+    width: 100%;
+    padding: 8px;
+    padding-left: 30px;
+    background-color: #f0f2f5;
+    background: url(img/emoji.png) no-repeat left center;
+    outline: none;
+    border: none;
+    background-size: 20px;
+    margin: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 30px;
+    height: 40px;
+  }
+
+
+  #t1{
+    background-color: #f1ece5a1;
+    margin-top: 10px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +149,7 @@
 }
 #left{
     width: 40%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -25,7 +157,16 @@
 #nav1{
     background-color: #F0F2F5;
     width: 100%;
-    /* display: flex; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav2{
+    background-color: #F0F2F5;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #right{
     background-color: #efeae2;
@@ -47,7 +188,7 @@
 }
 #l1{
     background-color: white;
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
 }
 #leftside{
     display: inline-block;
@@ -65,7 +206,9 @@
 }
 
 
-
+#t1{
+    background-color: #f1ece5a4;
+}
 
 
 
@@ -100,4 +243,12 @@
   img {
     width: 30px;
     height: 40px;
+  }
+  #navigation-image{
+    align-self: center;
+  }
+
+
+  .t2:hover{
+    background-color: #f1ece5a4;
   }
